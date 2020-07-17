@@ -14,11 +14,11 @@ import java.util.ArrayList;
 
 public class MainApp {
     public static void main(String[] args) {
-        Excavator excavator = new Excavator();
+        Excavator excavators = new Excavator();
         Bulldozer bulldozer = new Bulldozer();
         Track track = new Track();
         ArrayList<Machine> machines = new ArrayList<Machine>();
-        machines.add(excavator);
+        machines.add(excavators);
         machines.add(bulldozer);
         machines.add(track);
         for (Machine car : machines) {
